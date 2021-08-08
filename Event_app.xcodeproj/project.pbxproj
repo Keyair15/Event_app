@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		CCC9BFAA26ACC33900FF367D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BFA926ACC33900FF367D /* AppDelegate.swift */; };
 		CCC9BFAC26ACC33900FF367D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BFAB26ACC33900FF367D /* SceneDelegate.swift */; };
-		CCC9BFAE26ACC33900FF367D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BFAD26ACC33900FF367D /* ViewController.swift */; };
+		CCC9BFAE26ACC33900FF367D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BFAD26ACC33900FF367D /* FirstViewController.swift */; };
 		CCC9BFB126ACC33900FF367D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC9BFAF26ACC33900FF367D /* Main.storyboard */; };
 		CCC9BFB426ACC33900FF367D /* Event_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BFB226ACC33900FF367D /* Event_app.xcdatamodeld */; };
 		CCC9BFB626ACC33B00FF367D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC9BFB526ACC33B00FF367D /* Assets.xcassets */; };
 		CCC9BFB926ACC33B00FF367D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC9BFB726ACC33B00FF367D /* LaunchScreen.storyboard */; };
 		CCC9BFC426ACC33B00FF367D /* Event_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BFC326ACC33B00FF367D /* Event_appTests.swift */; };
 		CCC9BFCF26ACC33B00FF367D /* Event_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BFCE26ACC33B00FF367D /* Event_appUITests.swift */; };
+		CCC9C02026BC4F2900FF367D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9C01F26BC4F2900FF367D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		CCC9BFA626ACC33900FF367D /* Event_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Event_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC9BFA926ACC33900FF367D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC9BFAB26ACC33900FF367D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCC9BFAD26ACC33900FF367D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCC9BFAD26ACC33900FF367D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CCC9BFB026ACC33900FF367D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCC9BFB326ACC33900FF367D /* Event_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Event_app.xcdatamodel; sourceTree = "<group>"; };
 		CCC9BFB526ACC33B00FF367D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		CCC9BFCA26ACC33B00FF367D /* Event_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Event_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC9BFCE26ACC33B00FF367D /* Event_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event_appUITests.swift; sourceTree = "<group>"; };
 		CCC9BFD026ACC33B00FF367D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCC9C01F26BC4F2900FF367D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				CCC9BFA926ACC33900FF367D /* AppDelegate.swift */,
 				CCC9BFAB26ACC33900FF367D /* SceneDelegate.swift */,
-				CCC9BFAD26ACC33900FF367D /* ViewController.swift */,
+				CCC9BFAD26ACC33900FF367D /* FirstViewController.swift */,
 				CCC9BFAF26ACC33900FF367D /* Main.storyboard */,
+				CCC9C01F26BC4F2900FF367D /* SecondViewController.swift */,
 				CCC9BFB526ACC33B00FF367D /* Assets.xcassets */,
 				CCC9BFB726ACC33B00FF367D /* LaunchScreen.storyboard */,
 				CCC9BFBA26ACC33B00FF367D /* Info.plist */,
@@ -262,8 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC9BFB426ACC33900FF367D /* Event_app.xcdatamodeld in Sources */,
-				CCC9BFAE26ACC33900FF367D /* ViewController.swift in Sources */,
+				CCC9BFAE26ACC33900FF367D /* FirstViewController.swift in Sources */,
 				CCC9BFAA26ACC33900FF367D /* AppDelegate.swift in Sources */,
+				CCC9C02026BC4F2900FF367D /* SecondViewController.swift in Sources */,
 				CCC9BFAC26ACC33900FF367D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
